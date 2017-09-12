@@ -4,6 +4,13 @@ title: Create a Stylable Component Library
 layout: docs
 ---
 
+{% playground {"id":"stylableComponentLibrary", "title":"Stylable Component Library", "dir":"/examples/stylable-component-library", "entry":"app.tsx", "active":"app.tsx", "readOnly":"false"} %}
+
+{% playground {"id":"stylableComponentLibrary2", "title":"Stylable Component Library", "dir":"/examples/stylable-component-library", "entry":"app.tsx", "active":"app.tsx", "readOnly":"false"} %}
+
+
+
+
 **Stylable** enables you to author a component library, that can be themed, and easily consumed and styled, by other **Stylable** projects.  
 
 **Stylable** is the styling, CSS side of working with components. For the **Stylable** CSS to be fully useful, it must integrate with a component library from another source, for example React.

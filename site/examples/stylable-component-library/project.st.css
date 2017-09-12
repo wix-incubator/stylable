@@ -7,7 +7,7 @@
 }
 
 :import {
-    -st-from: './button/button.st.css';
+    -st-from: './button.st.css';
     -st-default: Button;
 }
 

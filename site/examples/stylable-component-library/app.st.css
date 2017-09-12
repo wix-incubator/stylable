@@ -1,6 +1,7 @@
 @namespace "App";
 :import {
-    -st-from: './project.st.css';
+    -st-theme:true;
+    -st-from: './backoffice-theme.st.css';
     -st-named: color1, color2, emphasisBox, cancelButton;
 }
 .root {

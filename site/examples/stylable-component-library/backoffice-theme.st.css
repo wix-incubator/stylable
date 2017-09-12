@@ -1,6 +1,7 @@
 @namespace "backofficeTheme";
 :import {
-    -st-from: './project.st.css';
+    -st-theme: true;
+    -st-from: './project.st.css';    
     -st-named: color1, color2, cancelButton, emphasisBox;
     color1: white;
     color2: red;
