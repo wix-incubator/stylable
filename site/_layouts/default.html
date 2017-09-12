@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/highlight.css">
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon-1.png">
     <link type="text/css" rel="stylesheet" href="//static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
+    <!-- ToDo: load only in pages with playground -->
+    <script src="https://unpkg.com/react@15.3.1/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
+    <script>window.react = React;</script>
+    <script src="{{ site.baseurl }}/js/Playground.bundle.js"></script>
+    <script src="{{ site.baseurl }}/js/vs/loader.js"></script>
+    <script src="{{ site.baseurl }}/js/render-playground.js"></script>
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/Playground.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        button {
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 {% include header.html %}
