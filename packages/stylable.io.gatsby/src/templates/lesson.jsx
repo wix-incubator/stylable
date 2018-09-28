@@ -64,6 +64,7 @@ const BodyGrid = styled.div`
 `
 
 const BodyContainer = styled.div`
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";   
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   overflow: scroll;
@@ -88,6 +89,7 @@ const HeaderContainer = styled.div`
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   z-index: 2;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   @media screen and (max-width: 600px) {
     order: 1;
   }

@@ -4,14 +4,20 @@ import styled from 'styled-components'
 import UserLinks from '../UserLinks'
 import config from '../../../data/SiteConfig'
 
+var imgStyle = {
+  height: '48px',
+  margin: '15px 15px 15px 15px'
+}
+
 const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background: #ffffff;
+  background-color: transparent;
 
   section {
     margin-top: 20px;
+    background-color: transparent;
   }
 
   .nav-link {
@@ -19,6 +25,7 @@ const NavContainer = styled.div`
     margin-right: 10px;
     font-weight: 200;
     color: black;
+    background-color: transparent;
   }
 
   @media screen and (max-width: 600px) {
@@ -36,14 +43,15 @@ const NavContainer = styled.div`
   }
 `
 
+
+
 class Navigation extends React.Component {
   render() {
     return (
       <NavContainer>
         <span>
         <Link className="nav-link" to="/">
-        {' '}
-<img src={config.siteLogo} width="188px" alt="" />{' '}
+        {' '} <img style={imgStyle} src={config.siteLogo} width="48px" alt="" />{' '}
 </Link>
         </span>        
         <section>         
