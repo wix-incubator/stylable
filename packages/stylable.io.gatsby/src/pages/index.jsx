@@ -24,9 +24,9 @@ class Index extends React.Component {
               <h1>{config.siteTitle}</h1>
               <h4>{config.siteDescription}</h4>
               
-              <InverseCtaButton to={'/lesson-one'}>Get Started</InverseCtaButton>
-              <InverseCtaButton to={'/tutorials'}>Take a Tutorial</InverseCtaButton>
-              <InverseCtaButton to={'/dev'}>Try In a SandBox</InverseCtaButton>
+              <InverseCtaButton to={'/getting-started'}>Get Started</InverseCtaButton>
+              <InverseCtaButton to={'/component-basics'}>Components Basics</InverseCtaButton>
+              <InverseCtaButton to={'/css-class-selectors'}>Specification reference</InverseCtaButton>
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
@@ -54,7 +54,7 @@ class Index extends React.Component {
               Made for modern documentation sites. Table of Contents
               automatically generated from markdown files.{' '}
             </p>
-            <CtaButton to={'/lesson-one'}>See Your First Post</CtaButton>
+            <CtaButton to={'/component-basics'}>Components Basics</CtaButton>
 
             <div className="contributors">
               <p>

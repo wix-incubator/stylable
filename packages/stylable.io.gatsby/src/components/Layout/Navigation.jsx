@@ -52,25 +52,10 @@ class Navigation extends React.Component {
         <span>
         <Link className="nav-link" to="/">
         {' '} <img style={imgStyle} src={config.siteLogo} width="48px" alt="" />{' '}
-</Link>
-        </span>        
-        <section>         
-          <Link className="nav-link" to="/understanding-quix">
-            {' '}
-            Docs{' '}
-          </Link>
-          <Link className="nav-link" to="/tutorials">
-            {' '}
-            Tutorials{' '}
-          </Link>
-          <Link className="nav-link" to="/dev">
-            {' '}
-            Dev Portal{' '}
-          </Link>
-          <Link className="nav-link" to="/community">
-            {' '}
-            Community{' '}
-          </Link>
+</Link> 
+        </span>
+        <section>
+
         </section>
         <span>
           <UserLinks />
